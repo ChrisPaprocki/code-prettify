@@ -439,7 +439,7 @@ var IN_GLOBAL_SCOPE = false;
       var ALL_KEYWORDS = [
           CPP_KEYWORDS, CSHARP_KEYWORDS, JAVA_KEYWORDS, JSCRIPT_KEYWORDS,
           PERL_KEYWORDS, PYTHON_KEYWORDS, RUBY_KEYWORDS, SH_KEYWORDS];
-      var C_TYPES = /^(DIR|FILE|vector|(de|priority_)?queue|list|stack|(const_)?iterator|(std::)?(multi)?(set|map)|bitset\d*)\b/;
+      var C_TYPES = /^(DIR|FILE|vector|(de|priority_)?queue|list|stack|(const_)?iterator|(std::)?(multi)?(set|map)|(std::)?(string)|bitset\d*)\b/;
     
       // token style names.  correspond to css classes
       /**
